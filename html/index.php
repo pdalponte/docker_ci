@@ -11,8 +11,8 @@
 </style>
 </head>
 <body>
-<h1>Hola mundo!</h1>
+<h1><?php echo "Hola mundo desde PHP!" ?></h1>
 
-<p><em>¡¡¡Eso es todo amigos!!!...</em></p>
+<p><em>¡¡¡Eso es todo amigos!!!... Me fui</em></p>
 </body>
 </html>
