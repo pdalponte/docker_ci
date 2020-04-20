@@ -1,7 +1,5 @@
 FROM php:7.2-apache
 
-LABEL maintainer="PP"
-
 ENV APACHE_DOCUMENT_ROOT /app
 
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
